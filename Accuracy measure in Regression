@@ -1,0 +1,10 @@
+
+#Package ‘scorer’
+install.packages("scorer")
+
+#Calculate R^2 (coefficient of determination) regression score function.
+r2_score(y_true, y_pred)
+
+#Calculate root mean squared error
+rmse(y_true = NULL, y_pred = NULL, actual = NULL, forecast = NULL,
+na.rm = TRUE,..)
